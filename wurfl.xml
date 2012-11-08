@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_wurfl</name>
+	<author>Aldo Praherda</author>
+	<creationDate>October 2012</creationDate>
+	<license>GNU General Public License version 2 or later; see	LICENSE.txt</license>
+	<authorEmail>aldopraherda@gmail.com</authorEmail>
+	<authorUrl>coralynweb.com</authorUrl>
+	<version>2.5.0</version>
+	<description>Detect mobile browser and redirect it to certain url</description>	
+	<files>
+		<file plugin="wurfl">wurfl.php</file>
+    	<filename>index.html</filename>		
+    	<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+
+			<fieldset name="basic">
+				<field name="wurflDir" type="text"
+					description="Path of WURFL"
+					label="WURFL Path"					
+				/>
+				<field name="wurflResDir" type="text"
+					description="Path of WURFL Resource"
+					label="WURFL Resource Path"					
+				/>
+				
+				<field name="wireless" type="text"
+					description="URL for wireless"
+					label="URL for wireless"					
+				/>
+				<field name="smarttv" type="text"
+					description="URL for smarttv"
+					label="URL for smarttv"					
+				/>
+				<field name="tablet" type="text"
+					description="URL for tablet"
+					label="URL for tablet"					
+				/>
+				<field name="mobile_phone" type="text"
+					description="URL for mobile phone"
+					label="URL for mobile phone"					
+				/>
+				<field name="mobile_device" type="text"
+					description="URL for mobile device"
+					label="URL for mobile device"					
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

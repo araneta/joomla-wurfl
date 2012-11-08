@@ -1,0 +1,24 @@
+body
+{
+   width: 100%;
+   /* max-width: 320px; */ /* max_width works with iPhones, but doesn't format well with new Android phones and devices that are wider than 320px */
+   min-width: 0px;
+}
+#wrapper{	
+	margin:0 auto;	
+}
+.logo{
+	text-align:center;
+	margin:0 auto;
+	width:233px;
+	height:46px;
+}
+.text{
+	font-family:"Trebuchet MS",Tahoma,Arial,Helvetica,sans-serif;
+	color:#B5121A;			
+	text-align:center;
+	font-size:170%;
+}
+.button{
+	text-align:center;
+}
